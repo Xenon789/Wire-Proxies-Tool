@@ -5,8 +5,8 @@ const bot = new Discord.Client();
 const fs = require('fs');
 const lineReader = require('line-reader');
 
-const token = 'NzAwNTI3ODEzNzYxMDQwNDQ2.XpkPXQ.e807BwKdP5SVqz9JaT-wHxSKBcI';
-//NzEzNTYyNjk3MTU2Nzg4MjM0.Xsh7DA.HTJjFxPv21SjYSdNOVE9fUbP9-c
+//replace token with bot token
+const token = '';
 const request = require('request');
 
 //replace bearer with packetstream api key
@@ -66,9 +66,7 @@ function timeoutPromise(ms, promise) {
         })
     })
 }
-const greenzy = '714299189596782623';
-const mattyku = '424457357880328212'
-const sirwire = '773092001808908299';
+
 function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
 }
